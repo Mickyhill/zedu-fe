@@ -11,7 +11,6 @@ import {
   SettingsIcon,
   UsersIcon,
   BanknoteIcon,
-  CalendarDays,
   Webhook,
   Palette,
   Layers,
@@ -40,7 +39,6 @@ const ORG_NAV_ICONS: Record<string, React.ReactNode> = {
   webhooks: <Webhook className="w-5" />,
   "channel-management": <Layers className="w-5" />,
   billing: <BanknoteIcon className="w-5" />,
-  "demo-bookings": <CalendarDays className="w-5" />,
 };
 
 export default function SettingsNav() {

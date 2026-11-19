@@ -54,12 +54,6 @@ export const ORG_SETTINGS_NAV_ITEMS: Array<{
     pathSegment: "billing",
     access: { anyOf: ["view:billing", "manage:billing"] },
   },
-  {
-    id: "demo-bookings",
-    title: "Demo bookings",
-    pathSegment: "demo-bookings",
-    access: "view:analytics",
-  },
 ];
 
 /** Resolve organisation settings segment from pathname (supports nested routes). */
