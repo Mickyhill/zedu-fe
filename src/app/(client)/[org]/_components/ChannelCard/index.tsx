@@ -100,7 +100,7 @@ export const ChannelCard = (props: ComponentProps) => {
 
         <p
           className={cn(
-            "text-[15px] leading-4 lowercase truncate py-1 w-[180px] text-blue-50 "
+            "text-[15px] leading-4 tracking-[0.02em] lowercase truncate py-1 w-[180px] text-blue-50 "
           )}
           title={props.name}
         >
