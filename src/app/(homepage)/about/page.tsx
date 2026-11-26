@@ -133,7 +133,7 @@ const AboutPage = () => {
             className=" sm:w-auto w-[209px]"
           />
         </div>
-                <ShareZeduButton />
+        <ShareZeduButton />
         <div className="w-full max-w-6xl overflow-hidden rounded-2xl sm:mt-0 mt-5">
           <div className="relative aspect-[16/10]  w-full sm:aspect-[16/9] lg:aspect-[2/1] ">
             <Image
